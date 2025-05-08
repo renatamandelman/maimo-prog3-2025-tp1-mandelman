@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # maimo-prog3-2025-tp1-mandelman
 # renatamandelman-maimo-prog3-2025-tp1-mandelman
 # renatamandelman-maimo-prog3-2025-tp1-mandelman
+# maimo-prog3-2025-tp1-mandelman-
