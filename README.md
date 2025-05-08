@@ -35,3 +35,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # maimo-prog3-2025-tp1-mandelman
+# renatamandelman-maimo-prog3-2025-tp1-mandelman
