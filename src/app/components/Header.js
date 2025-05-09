@@ -1,7 +1,6 @@
 import Image from "next/image";
 const Header = () => {
   return (
-    <>
     <header>
     <div className="logo_container">
       <Image src="/assets/imgs/logo.webp" width={200} height={200} alt="logo" />
@@ -17,7 +16,6 @@ const Header = () => {
       ☰
     </div>
   </header>
-  </>
   );
 };
 
