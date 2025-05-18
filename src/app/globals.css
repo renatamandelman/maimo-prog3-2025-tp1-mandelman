@@ -162,7 +162,7 @@ header li a{
 .receta{
     grid-column: span 3;
     background-color: #7D0A0A;
-    padding:0.5em 0.5em 0 0.5em;
+    padding:0.5em;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@ header li a{
   width:80%;
 }
 .receta h3{
-  margin-bottom:0.2em;
+  margin:0.5em;
 }
 .receta h5{
   background-color: #EAD196;
