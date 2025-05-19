@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-const RecipesCard = ({id,name,image, cuisine}) => {
+const RecipesCard = ({name,image, cuisine, id}) => {
   return (
     <div class="receta">
     <Image src={image}  width={200} height={200} alt={name}/>
