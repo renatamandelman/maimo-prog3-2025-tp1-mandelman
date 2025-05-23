@@ -1,10 +1,6 @@
-import { Kanit } from "next/font/google";
 import "./globals.css";
-const kanit = Kanit({
-  variable: "--font-kanit",
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-});
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 export const metadata = {
   title: "Recipes App",
@@ -14,7 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${kanit.variable} antialiased`}>{children}</body>
+      <body>
+        <Header/>
+        {children}
+           <Footer/>
+        </body>
+
     </html>
   );
 }
