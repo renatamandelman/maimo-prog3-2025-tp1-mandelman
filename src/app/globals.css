@@ -23,9 +23,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-  font-family: var(--font-kanit);
-}
+
 .nav_container{
   display: flex;
   justify-content: space-between;
@@ -200,6 +198,7 @@ header li a{
   justify-content: space-between;
   width:70%;
   font-family: Arial, Helvetica, sans-serif;
+  color:black
 }
 .ingredients li{
   list-style-type:circle;
@@ -216,7 +215,7 @@ header li a{
 .instructions{
   background-color: #7D0A0A;
   color:#EAD196;
-  padding: 0 1em;
+  padding: 1em 2em;
   border-radius: 1em;
   width:30%;
 }
