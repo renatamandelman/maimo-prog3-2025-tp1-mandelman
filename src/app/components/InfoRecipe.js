@@ -77,7 +77,7 @@ const InfoRecipe = ({ id }) => {
             <div className="ingredients">
               <h2>Ingredients</h2>
               <ul>
-                {recipe.ingredients?.map((ingredient, i) => (
+                {recipe.ingredients.map((ingredient, i) => (
                   <li key={i}>{ingredient}</li>
                 ))}
               </ul>
@@ -85,7 +85,7 @@ const InfoRecipe = ({ id }) => {
             <div className="instructions">
               <h2>Instructions</h2>
               <ul>
-                {recipe.instructions?.map((instruction, i) => (
+                {recipe.instructions.map((instruction, i) => (
                   <li key={i}>{instruction}</li>
                 ))}
               </ul>

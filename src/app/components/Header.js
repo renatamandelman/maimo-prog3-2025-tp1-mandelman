@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Header = () => {
   return (
     <header>
@@ -7,9 +8,9 @@ const Header = () => {
     </div>
     <nav>
       <ul className="nav_links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">About</a></li>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="#">Categories</Link></li>
+        <li><Link href="#">About</Link></li>
       </ul>
     </nav>
     <div className="menu_toggle" id="menu-toggle">
